@@ -1,0 +1,23 @@
+{
+  "name": "hint-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "Marvin Lemos (marvinlemos.net)",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "next": "^10.0.3",
+    "postcss": "^8.1.10",
+    "postcss-import": "^13.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.1"
+  }
+}

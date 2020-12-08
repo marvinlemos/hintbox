@@ -18,6 +18,7 @@
     "postcss-import": "^13.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "swr": "^0.3.9",
     "tailwindcss": "^2.0.1"
   }
 }

@@ -37,7 +37,7 @@ export default async(req, res) => {
         await sheet.addRow({
             Name: data.Name,
             Email: data.Email,
-            Whatsapp: '55 86 99999-0001',
+            WhatsApp: data.WhatsApp,
             Evaluation: 5,
             'Date': moment().format('DD/MM/YYYY, HH:mm:ss'),
             Cupom, //Assign the value of the variable with the same name

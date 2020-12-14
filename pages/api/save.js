@@ -29,7 +29,6 @@ export default async(req, res) => {
         let Promo = ''
 
         if (showPromotionCell.value){
-            //TODO: gerar cupom
             Cupom = genCupom(),
             Promo = messageCell.value
         }
@@ -38,13 +37,17 @@ export default async(req, res) => {
             Name: data.Name,
             Email: data.Email,
             WhatsApp: data.WhatsApp,
-            Evaluation: 5,
+            Evaluation: parseInt(data.Nota),
             'Date': moment().format('DD/MM/YYYY, HH:mm:ss'),
             Cupom, //Assign the value of the variable with the same name
             Promo
         })
 
-        res.end(req.body)
+        res.end(JSON.stringify({
+            showCupom: Cupom !== '',
+            Cupom,
+            Promo
+        }))
     }catch(error){
         console.log('error: ' + error)
         res.end('error')

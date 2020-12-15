@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
-import Link from 'next/link'
-
+import PageTitle from '../components/PageTitle'
 
 const Survey = () => {
     const [form, setForm] = useState({
@@ -37,6 +36,7 @@ const Survey = () => {
     }
     return (
         <div className='pt-6'>
+            <PageTitle title='Survey' />
             <h1 className='text-center font-bold my-4 text-2xl'>Hints and opinions</h1>
             <p className='text-center mb-6'>
                 Help us to improve our service.<br/>Share you opinion with us.
@@ -55,7 +55,7 @@ const Survey = () => {
                             return (
                                 <label className='block w-1/6 text-center'>
                                     {nota}<br/>
-                                    <input type='radio' name='Nota' value={nota} onChange={onChange} /
+                                    <input type='radio' key={nota} name='Nota' value={nota} onChange={onChange} /
                                 ></label>
                             )
                         })

@@ -12,7 +12,7 @@ const Header = () => {
             </div>
             <div className='bg-gray-300 p-4 shadow-md text-center'>
                 <Link href='/about'>
-                    <a className='px-2 hover:underline'>Sobre</a>
+                    <a className='px-2 hover:underline'>About</a>
                 </Link>
                 <Link href='/contact'>
                     <a className='px-2 hover:underline'>Contact</a>

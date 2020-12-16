@@ -1,7 +1,7 @@
 # Hintbox
 Hintbox allows customers of restaurants and other local business to share their opinions and hints about the services; 
 
-[![HitCount](https://hits.dwyl.com//marvinlemos/marvinlemos/tuliofariadev.svg)](https://hits.dwyl.com/marvinlemos/marvinlemos/hintbox)
+[![HitCount](http://hits.dwyl.com/marvinlemos/marvinlemos/hintbox.svg)](http://hits.dwyl.com/marvinlemos/marvinlemos/hintbox)
 
 A Demo version can be found [HERE](https://hintbox.vercel.app/).
 ## Begining
